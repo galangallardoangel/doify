@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Doify
 
-## Getting Started
+Doify es una aplicación web para organizar tareas de forma sencilla mediante un tablero Kanban. La idea del proyecto es tener un espacio donde poder gestionar las tareas del día a día, cambiar su estado y mantenerlas organizadas.
 
-First, run the development server:
+Es un proyecto personal que estoy desarrollando para seguir aprendiendo React y Next.js, mejorar mis conocimientos de JavaScript y trabajar con componentes y gestión del estado.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Crear nuevas tareas.
+- Editar y eliminar tareas.
+- Organizar las tareas en tres columnas:
+  - Pendiente
+  - En proceso
+  - Hecho
+- Asignar prioridades: alta, media y baja.
+- Cambiar el estado de las tareas desde el propio tablero.
+- Guardar las tareas en el navegador mediante `localStorage`, para que sigan estando disponibles al volver a entrar.
+- Diseño adaptable a diferentes tamaños de pantalla.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tecnologías utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js** – Framework basado en React.
+- **React** – Creación de la interfaz y gestión de componentes.
+- **JavaScript** – Lógica de la aplicación.
+- **CSS** – Estilos y diseño responsive.
+- **localStorage** – Persistencia de las tareas en el navegador.
 
-## Learn More
+## Instalación y ejecución
 
-To learn more about Next.js, take a look at the following resources:
+Para ejecutar el proyecto en local:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clona el repositorio:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone URL_DEL_REPOSITORIO
+   ```
 
-## Deploy on Vercel
+2. Entra en la carpeta del proyecto:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   cd doify
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abre [http://localhost:3000](http://localhost:3000) en el navegador.
+
+## Próximas mejoras
+
+Algunas ideas que me gustaría incorporar más adelante:
+
+- Arrastrar tareas entre columnas.
+- Mejorar la organización y los filtros de tareas.
+- Añadir fechas límite.
+- Seguir mejorando el diseño y la experiencia de usuario.
+
+---
+
+Proyecto desarrollado como parte de mi aprendizaje de desarrollo web con React y Next.js.
